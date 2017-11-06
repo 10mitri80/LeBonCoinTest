@@ -1,0 +1,462 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 48;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		FE407DF81FAF427500ABA163 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = FE407DF71FAF427500ABA163 /* AppDelegate.swift */; };
+		FE407DFA1FAF427500ABA163 /* ForecastDetailVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = FE407DF91FAF427500ABA163 /* ForecastDetailVC.swift */; };
+		FE407DFD1FAF427500ABA163 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FE407DFB1FAF427500ABA163 /* Main.storyboard */; };
+		FE407DFF1FAF427500ABA163 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FE407DFE1FAF427500ABA163 /* Assets.xcassets */; };
+		FE407E021FAF427500ABA163 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FE407E001FAF427500ABA163 /* LaunchScreen.storyboard */; };
+		FE407E131FAF475800ABA163 /* ForecastListVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = FE407E121FAF475800ABA163 /* ForecastListVC.swift */; };
+		FE407E151FAF486C00ABA163 /* Forecast.swift in Sources */ = {isa = PBXBuildFile; fileRef = FE407E141FAF486C00ABA163 /* Forecast.swift */; };
+		FE407E171FAF50F100ABA163 /* NetworkingHelper.swift in Sources */ = {isa = PBXBuildFile; fileRef = FE407E161FAF50F100ABA163 /* NetworkingHelper.swift */; };
+		FE50FC6E1FAFA94100463624 /* DatabaseHelper.swift in Sources */ = {isa = PBXBuildFile; fileRef = FE50FC6D1FAFA94100463624 /* DatabaseHelper.swift */; };
+		FFD67E2E3D70A11D594DB9DA /* Pods_LeBonCoinTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 76B8E877D89629E6EBF9A71F /* Pods_LeBonCoinTest.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		76B8E877D89629E6EBF9A71F /* Pods_LeBonCoinTest.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_LeBonCoinTest.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		C2AB4EFE42642ADF2CD7CCCC /* Pods-LeBonCoinTest.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-LeBonCoinTest.release.xcconfig"; path = "Pods/Target Support Files/Pods-LeBonCoinTest/Pods-LeBonCoinTest.release.xcconfig"; sourceTree = "<group>"; };
+		E3180A5544DE25BCC349B186 /* Pods-LeBonCoinTest.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-LeBonCoinTest.debug.xcconfig"; path = "Pods/Target Support Files/Pods-LeBonCoinTest/Pods-LeBonCoinTest.debug.xcconfig"; sourceTree = "<group>"; };
+		FE407DF41FAF427500ABA163 /* LeBonCoinTest.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = LeBonCoinTest.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		FE407DF71FAF427500ABA163 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		FE407DF91FAF427500ABA163 /* ForecastDetailVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ForecastDetailVC.swift; sourceTree = "<group>"; };
+		FE407DFC1FAF427500ABA163 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		FE407DFE1FAF427500ABA163 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		FE407E011FAF427500ABA163 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		FE407E031FAF427500ABA163 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FE407E121FAF475800ABA163 /* ForecastListVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ForecastListVC.swift; sourceTree = "<group>"; };
+		FE407E141FAF486C00ABA163 /* Forecast.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Forecast.swift; sourceTree = "<group>"; };
+		FE407E161FAF50F100ABA163 /* NetworkingHelper.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetworkingHelper.swift; sourceTree = "<group>"; };
+		FE50FC6D1FAFA94100463624 /* DatabaseHelper.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DatabaseHelper.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		FE407DF11FAF427500ABA163 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FFD67E2E3D70A11D594DB9DA /* Pods_LeBonCoinTest.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		0AC426C8DB2F9E70DFDD1822 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				76B8E877D89629E6EBF9A71F /* Pods_LeBonCoinTest.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		21F0F35945239C8BA7436010 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				E3180A5544DE25BCC349B186 /* Pods-LeBonCoinTest.debug.xcconfig */,
+				C2AB4EFE42642ADF2CD7CCCC /* Pods-LeBonCoinTest.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		FE407DEB1FAF427500ABA163 = {
+			isa = PBXGroup;
+			children = (
+				FE407DF61FAF427500ABA163 /* LeBonCoinTest */,
+				FE407DF51FAF427500ABA163 /* Products */,
+				21F0F35945239C8BA7436010 /* Pods */,
+				0AC426C8DB2F9E70DFDD1822 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		FE407DF51FAF427500ABA163 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				FE407DF41FAF427500ABA163 /* LeBonCoinTest.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		FE407DF61FAF427500ABA163 /* LeBonCoinTest */ = {
+			isa = PBXGroup;
+			children = (
+				FE407E0E1FAF439800ABA163 /* Application */,
+				FE407E0B1FAF435B00ABA163 /* Controllers */,
+				FE407E0D1FAF437C00ABA163 /* Models */,
+				FE407E111FAF43F300ABA163 /* Helpers */,
+				FE407E0C1FAF436500ABA163 /* Views */,
+				FE407DFE1FAF427500ABA163 /* Assets.xcassets */,
+				FE407E031FAF427500ABA163 /* Info.plist */,
+			);
+			path = LeBonCoinTest;
+			sourceTree = "<group>";
+		};
+		FE407E0B1FAF435B00ABA163 /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				FE407DF91FAF427500ABA163 /* ForecastDetailVC.swift */,
+				FE407E121FAF475800ABA163 /* ForecastListVC.swift */,
+			);
+			path = Controllers;
+			sourceTree = "<group>";
+		};
+		FE407E0C1FAF436500ABA163 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				FE407DFB1FAF427500ABA163 /* Main.storyboard */,
+				FE407E001FAF427500ABA163 /* LaunchScreen.storyboard */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		FE407E0D1FAF437C00ABA163 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				FE407E141FAF486C00ABA163 /* Forecast.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		FE407E0E1FAF439800ABA163 /* Application */ = {
+			isa = PBXGroup;
+			children = (
+				FE407DF71FAF427500ABA163 /* AppDelegate.swift */,
+			);
+			path = Application;
+			sourceTree = "<group>";
+		};
+		FE407E111FAF43F300ABA163 /* Helpers */ = {
+			isa = PBXGroup;
+			children = (
+				FE407E161FAF50F100ABA163 /* NetworkingHelper.swift */,
+				FE50FC6D1FAFA94100463624 /* DatabaseHelper.swift */,
+			);
+			path = Helpers;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		FE407DF31FAF427500ABA163 /* LeBonCoinTest */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FE407E061FAF427500ABA163 /* Build configuration list for PBXNativeTarget "LeBonCoinTest" */;
+			buildPhases = (
+				8071A9811678F771BA7B213D /* [CP] Check Pods Manifest.lock */,
+				FE407DF01FAF427500ABA163 /* Sources */,
+				FE407DF11FAF427500ABA163 /* Frameworks */,
+				FE407DF21FAF427500ABA163 /* Resources */,
+				68E55EF528604461CAFD7C28 /* [CP] Embed Pods Frameworks */,
+				0285EF726E5A0C32450C38A8 /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = LeBonCoinTest;
+			productName = LeBonCoinTest;
+			productReference = FE407DF41FAF427500ABA163 /* LeBonCoinTest.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		FE407DEC1FAF427500ABA163 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0910;
+				LastUpgradeCheck = 0910;
+				ORGANIZATIONNAME = "Dimitri Cadars";
+				TargetAttributes = {
+					FE407DF31FAF427500ABA163 = {
+						CreatedOnToolsVersion = 9.1;
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = FE407DEF1FAF427500ABA163 /* Build configuration list for PBXProject "LeBonCoinTest" */;
+			compatibilityVersion = "Xcode 8.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = FE407DEB1FAF427500ABA163;
+			productRefGroup = FE407DF51FAF427500ABA163 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				FE407DF31FAF427500ABA163 /* LeBonCoinTest */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		FE407DF21FAF427500ABA163 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FE407E021FAF427500ABA163 /* LaunchScreen.storyboard in Resources */,
+				FE407DFF1FAF427500ABA163 /* Assets.xcassets in Resources */,
+				FE407DFD1FAF427500ABA163 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		0285EF726E5A0C32450C38A8 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-LeBonCoinTest/Pods-LeBonCoinTest-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		68E55EF528604461CAFD7C28 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-LeBonCoinTest/Pods-LeBonCoinTest-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		8071A9811678F771BA7B213D /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		FE407DF01FAF427500ABA163 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FE407E171FAF50F100ABA163 /* NetworkingHelper.swift in Sources */,
+				FE407E151FAF486C00ABA163 /* Forecast.swift in Sources */,
+				FE407E131FAF475800ABA163 /* ForecastListVC.swift in Sources */,
+				FE407DFA1FAF427500ABA163 /* ForecastDetailVC.swift in Sources */,
+				FE50FC6E1FAFA94100463624 /* DatabaseHelper.swift in Sources */,
+				FE407DF81FAF427500ABA163 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		FE407DFB1FAF427500ABA163 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				FE407DFC1FAF427500ABA163 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		FE407E001FAF427500ABA163 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				FE407E011FAF427500ABA163 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		FE407E041FAF427500ABA163 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.1;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		FE407E051FAF427500ABA163 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		FE407E071FAF427500ABA163 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = E3180A5544DE25BCC349B186 /* Pods-LeBonCoinTest.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 8UXG5AHRA3;
+				INFOPLIST_FILE = LeBonCoinTest/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.dimcad.LeBonCoinTest;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		FE407E081FAF427500ABA163 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = C2AB4EFE42642ADF2CD7CCCC /* Pods-LeBonCoinTest.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 8UXG5AHRA3;
+				INFOPLIST_FILE = LeBonCoinTest/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.dimcad.LeBonCoinTest;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		FE407DEF1FAF427500ABA163 /* Build configuration list for PBXProject "LeBonCoinTest" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FE407E041FAF427500ABA163 /* Debug */,
+				FE407E051FAF427500ABA163 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		FE407E061FAF427500ABA163 /* Build configuration list for PBXNativeTarget "LeBonCoinTest" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FE407E071FAF427500ABA163 /* Debug */,
+				FE407E081FAF427500ABA163 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = FE407DEC1FAF427500ABA163 /* Project object */;
+}
